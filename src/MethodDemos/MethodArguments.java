@@ -17,7 +17,9 @@ public class MethodArguments {
 
     void intMultiple(int x,int y,int z)
     {
-        System.out.println(""+x+y+z);
+        System.out.println(" "+x);
+        System.out.println(" "+y);
+        System.out.println(" "+z);
     }
 
     void intVarious(int x,double x1, float y,boolean z)
@@ -30,7 +32,7 @@ public class MethodArguments {
 
     void mySingleArray(int Arr[]){
         for(int i=0;i<Arr.length;i++)
-        System.out.println(" "+Arr[i]);
+        System.out.println("====== "+Arr[i]);
     }
 
     void mySingleCharArray(char Arr[]){
@@ -40,7 +42,7 @@ public class MethodArguments {
 
     void mySingleString(String str[]){
             for(int i=0;i<str.length;i++)
-            System.out.println(" "+str[i]);
+            System.out.println("<<<<<<< "+str[i]);
     }
 
    /* void mySingleString1(String str1){

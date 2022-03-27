@@ -12,7 +12,7 @@ public class ArraysDemo1 {
 
         for (int i=0; i<5; i++)
         {
-            System.out.println(""+a[i]);
+            System.out.println(" "+a[i]);
 
         }
 

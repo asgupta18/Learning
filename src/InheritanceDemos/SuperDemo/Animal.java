@@ -12,7 +12,7 @@ public class Animal {
     Animal(int legs)
     {
         System.out.println("Legs = "+legs);
-        //System.out.println("Inside Animal constructor");
+        System.out.println("Inside Animal constructor");
     }
     String color = "Black";
 
@@ -23,6 +23,7 @@ public class Animal {
 
     public void property()
     {
+
         System.out.println("Animal Property");
     }
 }
@@ -31,7 +32,7 @@ class Dog extends Animal {
     Dog()
     {
         super(4);
-        //System.out.println("Inside Dog constructor");
+        System.out.println("Inside Dog constructor");
     }
 
     String color = "White";
@@ -46,6 +47,7 @@ class Dog extends Animal {
     }
     public void property()
     {
+
         System.out.println("==================Dog Property");
     }
 }
